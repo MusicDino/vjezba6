@@ -1,18 +1,8 @@
-import { Component } from 'react'
+import React from 'react';
 
-class Komponenta extends Component{
-    constructor(props) {
-        super(props)
-        console.log(this)
-    }
-    render() {
-        return (
-            <>
-            <h1>Komponenta</h1>
-            <h2>{this.props.title}</h2>
-            </>
-        )
-    }
+function Component1() {
+  return <div>Ovo je prva komponenta za Mateja</div>;
 }
 
-export default Komponenta
+
+export default Component1;

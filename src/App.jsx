@@ -1,12 +1,14 @@
-import '/app.css'
-import Komponenta from './Komponenta'
+import React from 'react';
+import Component1 from './Komponenta';
+import Component2 from './Komponenta2';
 
 function App() {
   return (
-    <>
-      <Komponenta title="Klasna komponenta" broj={5} treci={3}/>
-    </>
-  )
+    <div className="App">
+      <Component1 />
+      <Component2 />
+    </div>
+  );
 }
 
-export default App
+export default App;
